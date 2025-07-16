@@ -23,7 +23,7 @@ redirect_from:
 
 
 # 🔥 News
-<!-- - <span style="color:red; font-weight:bold;">**Actively seeking PhD opportunities for Fall 2026. Please feel free to contact me regarding potential positions!**</span> -->
+- <span style="color:red; font-weight:bold;">**Actively seeking industry research/HC positions and PhD opportunities. I am open to discussing potential collaborations and roles!**</span>
 - *2025.07*: &nbsp;🎉🎉 Our paper "Sim-DETR: Unlock DETR for Temporal Sentence Grounding" has been accepted to ICCV 2025!
 
 # 📝 Publications 
