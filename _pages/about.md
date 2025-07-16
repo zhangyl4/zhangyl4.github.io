@@ -30,6 +30,19 @@ redirect_from:
 
 <div class='paper-box'>
   <div class='paper-box-image'>
+    <div class="badge">ICCV 2025</div>
+    <img src='images/ICCV25_SimDetr.png' alt="sym" width="100%">
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+Sim-DETR: Unlock DETR for Temporal Sentence Grounding
+
+Jiajin Tang*, Zhengxuan Wei*, **Yuchen Zhu**, Cheng Shi, Guanbin Li, Liang Lin, Sibei Yang
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
     <div class="badge">CVPR 2025</div>
     <img src='images/CVPR25_SimCIS.jpg' alt="sym" width="100%">
   </div>
@@ -37,7 +50,7 @@ redirect_from:
 
 [Rethinking Query-based Transformer for Continual Image Segmentation](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhu_Rethinking_Query-based_Transformer_for_Continual_Image_Segmentation_CVPR_2025_paper.pdf)
 
-**Yuchen Zhu**, Cheng Shi, Dingyou Wang, Jiajin Tang, Zhengxuan Wei, Yu Wu, Guanbin Li, Sibei Yang
+**Yuchen Zhu**\*, Cheng Shi*, Dingyou Wang, Jiajin Tang, Zhengxuan Wei, Yu Wu, Guanbin Li, Sibei Yang
   </div>
 </div>
 
