@@ -23,10 +23,37 @@ redirect_from:
 
 
 # 🔥 News
+- <span style="color:red; font-weight:bold;">**Actively seeking PhD opportunities for Fall 2026. Please feel free to contact me regarding potential positions!**</span>
 - *2025.07*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2025.0*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 📝 Publications 
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class="badge">CVPR 2025</div>
+    <img src='images/CVPR25_SimCIS.jpg' alt="sym" width="100%">
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[Rethinking Query-based Transformer for Continual Image Segmentation](https://arxiv.org/abs/2507.07831)
+
+**Yuchen Zhu**\*, Cheng Shi*, Dingyou Wang, Jiajin Tang, Zhengxuan Wei, Yu Wu, Guanbin Li, Sibei Yang
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class="badge">ECCV 2024</div>
+    <img src='images/ECCV2024_PlainDet.png' alt="sym" width="100%">
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[Plain-Det: A Plain Multi-Dataset Object Detector](https://arxiv.org/abs/2407.10083)
+
+Cheng Shi\*, **Yuchen Zhu**\*, Sibei Yang
+  </div>
+</div>
 
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -37,22 +64,11 @@ redirect_from:
 
 Sim-DETR: Unlock DETR for Temporal Sentence Grounding
 
-Jiajin Tang*, Zhengxuan Wei*, **Yuchen Zhu**, Cheng Shi, Guanbin Li, Liang Lin, Sibei Yang
+Jiajin Tang\*, Zhengxuan Wei\*, **Yuchen Zhu**, Cheng Shi, Guanbin Li, Liang Lin, Sibei Yang
   </div>
 </div>
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class="badge">CVPR 2025</div>
-    <img src='images/CVPR25_SimCIS.jpg' alt="sym" width="100%">
-  </div>
-  <div class='paper-box-text' markdown="1">
 
-[Rethinking Query-based Transformer for Continual Image Segmentation](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhu_Rethinking_Query-based_Transformer_for_Continual_Image_Segmentation_CVPR_2025_paper.pdf)
-
-**Yuchen Zhu**\*, Cheng Shi*, Dingyou Wang, Jiajin Tang, Zhengxuan Wei, Yu Wu, Guanbin Li, Sibei Yang
-  </div>
-</div>
 
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
