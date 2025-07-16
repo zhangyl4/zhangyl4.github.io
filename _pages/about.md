@@ -23,9 +23,8 @@ redirect_from:
 
 
 # 🔥 News
-- <span style="color:red; font-weight:bold;">**Actively seeking PhD opportunities for Fall 2026. Please feel free to contact me regarding potential positions!**</span>
-- *2025.07*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2025.0*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<!-- - <span style="color:red; font-weight:bold;">**Actively seeking PhD opportunities for Fall 2026. Please feel free to contact me regarding potential positions!**</span> -->
+- *2025.07*: &nbsp;🎉🎉 Our paper "Sim-DETR: Unlock DETR for Temporal Sentence Grounding" has been accepted to ICCV 2025!
 
 # 📝 Publications 
 
@@ -68,12 +67,10 @@ Jiajin Tang\*, Zhengxuan Wei\*, **Yuchen Zhu**, Cheng Shi, Guanbin Li, Liang Lin
   </div>
 </div>
 
-
-
-# 🎖 Honors and Awards
+<!-- # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 📖 Educations
 - *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
