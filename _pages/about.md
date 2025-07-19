@@ -77,7 +77,9 @@ Jiajin Tang\*, Zhengxuan Wei\*, **Yuchen Zhu**, Cheng Shi, Guanbin Li, Liang Lin
 
 # ❤️ Hobbies
 
-I’m a big ⚽ football fan and love playing. I also play guitar for fun—back in college, I was in a band with friends!
+<span class='anchor' id='hobbies'></span>
+
+I'm a big ⚽ football fan and love playing. I also play guitar for fun—back in college, I was in a band with friends!
 
 
 <!-- # 🎖 Honors and Awards
