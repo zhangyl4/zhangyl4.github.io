@@ -9,11 +9,13 @@ main:
   - title: "Publications"
     url: "/#-publications"
 
+  - title: "Hobbies"
+    url: "/#-hobbies"
   # - title: "Honors and Awards"
   #   url: "/#-honors-and-awards"
 
-  - title: "Educations"
-    url: "/#-educations"
+  # - title: "Educations"
+  #   url: "/#-educations"
 
   # - title: "Invited Talks"
   #   url: "/#-invited-talks"

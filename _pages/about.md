@@ -17,16 +17,20 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-<div style="font-size:1.5em; color: #888; text-align:center; margin: 40px 0;">
-  🚧 This page is under construction. Stay tuned! 🚧
-</div>
+# About me
+I am a Master's student (2023-2026) at [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/), advised by [Prof. Sibei Yang](https://sibeiyang.github.io/). Previously, I received my Bachelor's degree from [Nanjing Institute of Technology](https://www.njit.edu.cn/) in 2023. My research interests include:
+- Continual Learning
+- Multimodal Large Language Models (LLM/MLLM)
+- Open-world Visual Understanding
 
+<span style="color:red; font-weight:bold;">**Actively seeking industry research/HC positions and PhD opportunities. I am open to discussing potential collaborations and roles!**</span>
 
 # 🔥 News
-- <span style="color:red; font-weight:bold;">**Actively seeking industry research/HC positions and PhD opportunities. I am open to discussing potential collaborations and roles!**</span>
 - *2025.07*: &nbsp;🎉🎉 Our paper "Sim-DETR: Unlock DETR for Temporal Sentence Grounding" has been accepted to ICCV 2025!
 
 # 📝 Publications 
+
+\* denotes **equal contribution**
 
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -38,6 +42,8 @@ redirect_from:
 [Rethinking Query-based Transformer for Continual Image Segmentation](https://arxiv.org/abs/2507.07831)
 
 **Yuchen Zhu**\*, Cheng Shi*, Dingyou Wang, Jiajin Tang, Zhengxuan Wei, Yu Wu, Guanbin Li, Sibei Yang
+
+[[Code]](https://github.com/SooLab/SimCIS)
   </div>
 </div>
 
@@ -51,6 +57,9 @@ redirect_from:
 [Plain-Det: A Plain Multi-Dataset Object Detector](https://arxiv.org/abs/2407.10083)
 
 Cheng Shi\*, **Yuchen Zhu**\*, Sibei Yang
+
+[[Code]](https://github.com/SooLab/Plain-Det)
+
   </div>
 </div>
 
@@ -66,6 +75,11 @@ Sim-DETR: Unlock DETR for Temporal Sentence Grounding
 Jiajin Tang\*, Zhengxuan Wei\*, **Yuchen Zhu**, Cheng Shi, Guanbin Li, Liang Lin, Sibei Yang
   </div>
 </div>
+
+# ❤️ Hobbies
+
+I’m a big ⚽ football fan and love playing. I also play guitar for fun—back in college, I was in a band with friends!
+
 
 <!-- # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
