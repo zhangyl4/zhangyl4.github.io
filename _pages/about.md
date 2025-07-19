@@ -18,10 +18,8 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # About me
-I am a Master's student (2023-2026) at [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/), advised by [Prof. Sibei Yang](https://sibeiyang.github.io/). Previously, I received my Bachelor's degree from [Nanjing Institute of Technology](https://www.njit.edu.cn/) in 2023. My research interests include:
-- Continual Learning
-- Multimodal Large Language Models (LLM/MLLM)
-- Open-world Visual Understanding
+I am Yuchen Zhu (朱宇辰), a Master's student (2023-2026) at [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/), advised by [Prof. Sibei Yang](https://sibeiyang.github.io/). Previously, I received my Bachelor's degree from [Nanjing Institute of Technology](https://www.njit.edu.cn/) in 2023. 
+I am honored to work in [SooLab](https://github.com/SooLab) during my master's studies. My research interests include **1. Continual Learning**, **2. Multimodal Large Language Models (LLM/MLLM)**, **3. Open-world Visual Understanding**. Currently, I am focusing on continual learning problems in multimodal large language models, and exploring the differences and connections between this and traditional continual learning.
 
 <span style="color:red; font-weight:bold;">**Actively seeking industry research/HC positions and PhD opportunities. I am open to discussing potential collaborations and roles!**</span>
 
