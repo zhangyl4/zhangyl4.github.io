@@ -25,6 +25,7 @@ I am honored to work in [SooLab](https://github.com/SooLab) during my master's s
 <span style="color:red; font-weight:bold;">**Actively seeking industry research/HC positions and PhD opportunities. I am open to discussing potential collaborations and roles!**</span>
 
 # 🔥 News
+- *2025.09.19*: &nbsp;🎉🎉 Our paper "Intervene-All-Paths: Unified Mitigation of LVLM Hallucinations across Alignment Formats" has been accepted to NeurIPS 2025!
 - *2025.07*: &nbsp;🎉🎉 Our paper "Sim-DETR: Unlock DETR for Temporal Sentence Grounding" has been accepted to ICCV 2025!
 
 # 📝 Publications 
@@ -59,6 +60,19 @@ Cheng Shi\*, **Yuchen Zhu**\*, Sibei Yang
 
 [[Code]](https://github.com/SooLab/Plain-Det)
 
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class="badge">NeurIPS 2025</div>
+    <img src='images/NeurIPS2025_Allpath.png' alt="sym" width="100%">
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+Intervene-All-Paths: Unified Mitigation of LVLM Hallucinations across Alignment Formats
+
+Jiaye Qian\*, Ge Zheng\*, **Yuchen Zhu**, Sibei Yang
   </div>
 </div>
 
