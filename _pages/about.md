@@ -20,13 +20,13 @@ redirect_from:
 # About me
 I am Yulin Zhang (张宇麟), a Master's student (2024-2027) at [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/), advised by [Prof. Sibei Yang](https://sibeiyang.github.io/). Previously, I received my Bachelor's degree from [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/) in 2024. 
 
-I am honored to work in [SooLab](https://github.com/SooLab) during my master's studies. My research interests include 1. Spatial Intelligence, 2. Multimodal Large Language Models (LLM/MLLM), 3. Open-world Visual Understanding. Currently, I am focusing on equipping multimodal large language models with spatial reasoning abilities, particularly in 3D scene understanding, embodied navigation, and object grounding. Here is my [CV](assets/zyc_cv_en.pdf).
+I am honored to work in [SooLab](https://github.com/SooLab) during my master's studies. My research interests include 1. Spatial Intelligence, 2. Multimodal Large Language Models (LLM/MLLM), 3. Open-world Visual Understanding. Currently, I am focusing on equipping multimodal large language models with spatial reasoning abilities, particularly in 3D scene understanding, embodied navigation, and object grounding. Here is my [CV]().
 
-<span style="color:red; font-weight:bold;">**Actively seeking industry research/HC positions and PhD opportunities. I am open to discussing potential collaborations and roles!**</span>
+<!-- <span style="color:red; font-weight:bold;">**Actively seeking industry research/HC positions and PhD opportunities. I am open to discussing potential collaborations and roles!**</span> -->
 
 # 🔥 News
 - *2025.09.19*: &nbsp;🎉🎉 Our paper "Eyes Wide Open: Ego Proactive Video-LLM for Streaming Video" has been accepted to NeurIPS 2025!
-- *2025.07*: &nbsp;🎉🎉 Our paper "Eyes Wide Open: Ego Proactive Video-LLM for Streaming Video" has been accepted to ICCV 2025!
+- *2025.07*: &nbsp;🎉🎉 Our paper "No More Sibling Rivalry: Debiasing Human-Object Interaction Detection" has been accepted to ICCV 2025!
 
 # 📝 Publications 
 
@@ -34,67 +34,56 @@ I am honored to work in [SooLab](https://github.com/SooLab) during my master's s
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div class="badge">CVPR 2025</div>
-    <img src='images/CVPR25_SimCIS.jpg' alt="sym" width="100%">
+    <div class="badge">NIPS2025</div>
+    <img src='images/EyeWO.jpg' alt="sym" width="100%">
   </div>
   <div class='paper-box-text' markdown="1">
 
-[Rethinking Query-based Transformer for Continual Image Segmentation](https://arxiv.org/abs/2507.07831)
+[Eyes Wide Open: Ego Proactive Video-LLM for Streaming Video]()
 
-**Yuchen Zhu**\*, Cheng Shi*, Dingyou Wang, Jiajin Tang, Zhengxuan Wei, Yu Wu, Guanbin Li, Sibei Yang
+**Yulin Zhang**, Cheng Shi, Yang Wang, Sibei Yang
 
-[[Code]](https://github.com/SooLab/SimCIS)
+[[Code]]()
+  </div>
+</div>
+
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class="badge">ICCV2025</div>
+    <img src='images/NMSR-HOI.jpg' alt="sym" width="100%">
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[No More Sibling Rivalry: Debiasing Human-Object Interaction Detection](https://arxiv.org/abs/2509.00760)
+
+Bin Yang\*, **Yulin Zhang**\*, Hong-Yu Zhou, Sibei Yang
   </div>
 </div>
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div class="badge">ECCV 2024</div>
-    <img src='images/ECCV2024_PlainDet.png' alt="sym" width="100%">
+    <div class="badge">ECCV2024</div>
+    <img src='images/part2object.jpg' alt="sym" width="100%">
   </div>
   <div class='paper-box-text' markdown="1">
 
-[Plain-Det: A Plain Multi-Dataset Object Detector](https://arxiv.org/abs/2407.10083)
+[Part2Object: Hierarchical Unsupervised 3D Instance Segmentation](https://arxiv.org/abs/2407.10084)
 
-Cheng Shi\*, **Yuchen Zhu**\*, Sibei Yang
+Cheng Shi\*, **Yulin Zhang**\*, Bin Yang, Jiajin Tang, Yuexin Ma, Sibei Yang
 
-[[Code]](https://github.com/SooLab/Plain-Det)
+[[Code]](https://github.com/SooLab/Part2Object)
 
   </div>
 </div>
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class="badge">NeurIPS 2025</div>
-    <img src='images/NeurIPS2025_Allpath.png' alt="sym" width="100%">
-  </div>
-  <div class='paper-box-text' markdown="1">
 
-Intervene-All-Paths: Unified Mitigation of LVLM Hallucinations across Alignment Formats
-
-Jiaye Qian\*, Ge Zheng\*, **Yuchen Zhu**, Sibei Yang
-  </div>
-</div>
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class="badge">ICCV 2025</div>
-    <img src='images/ICCV25_SimDetr.png' alt="sym" width="100%">
-  </div>
-  <div class='paper-box-text' markdown="1">
-
-Sim-DETR: Unlock DETR for Temporal Sentence Grounding
-
-Jiajin Tang\*, Zhengxuan Wei\*, **Yuchen Zhu**, Cheng Shi, Guanbin Li, Liang Lin, Sibei Yang
-  </div>
-</div>
 
 # ❤️ Hobbies
 
 <span class='anchor' id='hobbies'></span>
 
-I'm a big ⚽ football fan and love playing. I also play guitar for fun—back in college, I was in a band with friends!
-
+I'm a huge 🏀 basketball fan and love watching NBA games. Stephen Curry and LeBron James are my favorite players! I also play basketball regularly to stay active and have fun.
 
 <!-- # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
