@@ -35,7 +35,7 @@ I am honored to work in [SooLab](https://github.com/SooLab) during my master's s
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class="badge">NIPS2025</div>
-    <img src='images/EyeWO.jpg' alt="sym" width="100%">
+    <img src='images/EyeWO.png' alt="sym" width="100%">
   </div>
   <div class='paper-box-text' markdown="1">
 
@@ -51,7 +51,7 @@ I am honored to work in [SooLab](https://github.com/SooLab) during my master's s
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class="badge">ICCV2025</div>
-    <img src='images/NMSR-HOI.jpg' alt="sym" width="100%">
+    <img src='images/NMSR-HOI.png' alt="sym" width="100%">
   </div>
   <div class='paper-box-text' markdown="1">
 
@@ -64,7 +64,7 @@ Bin Yang\*, **Yulin Zhang**\*, Hong-Yu Zhou, Sibei Yang
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class="badge">ECCV2024</div>
-    <img src='images/part2object.jpg' alt="sym" width="100%">
+    <img src='images/part2object.png' alt="sym" width="100%">
   </div>
   <div class='paper-box-text' markdown="1">
 
