@@ -1,8 +1,8 @@
 ---
 title: "Eyes Wide Open"
 permalink: /publications/eyes-wide-open/
-layout: default
-author_profile: true
+layout: blank
+author_profile: false
 ---
 
 <div align="center">
