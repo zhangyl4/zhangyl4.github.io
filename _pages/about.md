@@ -39,7 +39,7 @@ I am honored to work in [SooLab](https://github.com/SooLab) during my master's s
   </div>
   <div class='paper-box-text' markdown="1">
 
-[Eyes Wide Open: Ego Proactive Video-LLM for Streaming Video]()
+[Eyes Wide Open: Ego Proactive Video-LLM for Streaming Video](/publications/eyes-wide-open/)
 
 **Yulin Zhang**, Cheng Shi, Yang Wang, Sibei Yang
 
