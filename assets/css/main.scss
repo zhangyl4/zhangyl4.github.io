@@ -40,6 +40,72 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+.site-title, .page__title, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Orbitron', $header-font-family;
+  letter-spacing: 0.03em;
+}
+
+body {
+  background: radial-gradient(1200px 800px at 10% -10%, rgba(0, 229, 255, 0.08), transparent 60%),
+              radial-gradient(1000px 800px at 110% 10%, rgba(108, 140, 255, 0.08), transparent 60%),
+              linear-gradient(180deg, darken($background-color, 2%), $background-color 40%, darken($background-color, 4%));
+  color: $text-color;
+}
+
+a {
+  text-shadow: 0 0 6px rgba(0, 229, 255, 0.35);
+}
+
+.masthead,
+.greedy-nav {
+  background: rgba(5, 9, 16, 0.7);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-bottom: 1px solid rgba(0, 229, 255, 0.15);
+  box-shadow: 0 2px 16px rgba(0, 229, 255, 0.08);
+}
+
+.page {
+  background: rgba(15, 20, 32, 0.6);
+  border: 1px solid rgba(0, 229, 255, 0.12);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35), 0 0 24px rgba(0, 229, 255, 0.06) inset;
+}
+
+.sidebar {
+  background: rgba(12, 16, 26, 0.7);
+  border: 1px solid rgba(108, 140, 255, 0.12);
+}
+
+code, pre {
+  box-shadow: 0 0 0 1px rgba(0, 229, 255, 0.08) inset;
+}
+
+.button,
+button,
+input[type="submit"] {
+  font-family: 'Orbitron', $header-font-family;
+  background: linear-gradient(90deg, $primary-color, lighten($info-color, 10%));
+  color: #061018;
+  border: none;
+  box-shadow: 0 0 18px rgba(0, 229, 255, 0.35);
+}
+
+/* Subtle scanline effect */
+body:before {
+  content: "";
+  position: fixed;
+  left: 0; top: 0; right: 0; bottom: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(255,255,255,0.02),
+    rgba(255,255,255,0.02) 1px,
+    rgba(0,0,0,0.02) 2px,
+    rgba(0,0,0,0.02) 3px
+  );
+  mix-blend-mode: overlay;
+}
+
 .paper-box {
     display: flex;
     justify-content: left;

@@ -95,4 +95,70 @@ $(document).ready(function(){
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
 
+  // Animated starfield background
+  (function initStarfield(){
+    var canvas = document.createElement('canvas');
+    canvas.id = 'starfield-bg';
+    canvas.style.position = 'fixed';
+    canvas.style.top = 0;
+    canvas.style.left = 0;
+    canvas.style.width = '100%';
+    canvas.style.height = '100%';
+    canvas.style.zIndex = -1;
+    canvas.style.pointerEvents = 'none';
+    document.body.appendChild(canvas);
+
+    var ctx = canvas.getContext('2d');
+    var stars = [];
+    var numStars = 160;
+    var deviceRatio = window.devicePixelRatio || 1;
+
+    function resize(){
+      var w = window.innerWidth;
+      var h = window.innerHeight;
+      canvas.width = Math.floor(w * deviceRatio);
+      canvas.height = Math.floor(h * deviceRatio);
+      ctx.setTransform(deviceRatio, 0, 0, deviceRatio, 0, 0);
+    }
+    resize();
+    $(window).on('resize', resize);
+
+    function createStars(){
+      stars = [];
+      for (var i = 0; i < numStars; i++){
+        stars.push({
+          x: Math.random() * canvas.width,
+          y: Math.random() * canvas.height,
+          z: Math.random() * 0.7 + 0.3,
+          s: Math.random() * 1.2 + 0.2,
+          vx: (Math.random() - 0.5) * 0.2,
+          vy: (Math.random() - 0.5) * 0.2
+        });
+      }
+    }
+    createStars();
+
+    function step(){
+      ctx.clearRect(0,0,canvas.width,canvas.height);
+      for (var i = 0; i < stars.length; i++){
+        var star = stars[i];
+        star.x += star.vx * star.z * 2;
+        star.y += star.vy * star.z * 2;
+        if (star.x < 0) star.x = canvas.width;
+        if (star.x > canvas.width) star.x = 0;
+        if (star.y < 0) star.y = canvas.height;
+        if (star.y > canvas.height) star.y = 0;
+        var glow = 0.6 + 0.4 * Math.sin((Date.now()/300) + i);
+        ctx.beginPath();
+        ctx.fillStyle = 'rgba(0, 229, 255,'+ (0.3 + 0.5 * star.z) +')';
+        ctx.shadowColor = 'rgba(0, 229, 255,'+ (0.5 * glow) +')';
+        ctx.shadowBlur = 6 * star.z;
+        ctx.arc(star.x, star.y, star.s * (0.8 + 0.6 * glow), 0, Math.PI*2);
+        ctx.fill();
+      }
+      requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  })();
+
 });
