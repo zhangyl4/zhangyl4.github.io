@@ -10,7 +10,41 @@
 <link rel="stylesheet" href="assets/css/academicons.css"/>
 
 <!-- Sci‑fi fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Exo+2:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Exo+2:wght@300;400;600&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<!-- Immediate visual overrides for color & typography -->
+<style>
+html{font-size:16px}
+body{font-family:'Noto Sans SC','Exo 2','Trebuchet MS',Helvetica,sans-serif;color:#c7d2e5;background:radial-gradient(1200px 800px at 10% -10%,rgba(0,229,255,.08),transparent 60%),radial-gradient(1000px 800px at 110% 10%,rgba(108,140,255,.08),transparent 60%),linear-gradient(180deg,#0a0e15,#0b0f16 40%,#080c12)}
+.site-title,.page__title,h1,h2,h3,h4,h5,h6{font-family:'Orbitron','Noto Sans SC','Trebuchet MS',Helvetica,sans-serif;letter-spacing:.04em;color:#9be8ff;text-shadow:0 0 8px rgba(0,229,255,.5)}
+a{color:#8fb3ff;text-decoration:none;text-shadow:0 0 6px rgba(0,229,255,.35)}
+a:hover{color:#00e5ff;text-shadow:0 0 10px rgba(0,229,255,.7)}
+.masthead,.greedy-nav{background:rgba(5,9,16,.75);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);border-bottom:1px solid rgba(0,229,255,.2);box-shadow:0 2px 18px rgba(0,229,255,.1)}
+.page{background:rgba(15,20,32,.65);border:1px solid rgba(0,229,255,.15);box-shadow:0 10px 30px rgba(0,0,0,.35),0 0 24px rgba(0,229,255,.06) inset}
+.sidebar{background:rgba(12,16,26,.7);border:1px solid rgba(108,140,255,.12)}
+.button,button,input[type="submit"]{font-family:'Orbitron','Trebuchet MS',Helvetica,sans-serif;background:linear-gradient(90deg,#00e5ff,#6c8cff);color:#061018;border:none;box-shadow:0 0 18px rgba(0,229,255,.35)}
+body:before{content:"";position:fixed;left:0;top:0;right:0;bottom:0;pointer-events:none;background:repeating-linear-gradient(to bottom,rgba(255,255,255,.02),rgba(255,255,255,.02) 1px,rgba(0,0,0,.02) 2px,rgba(0,0,0,.02) 3px);mix-blend-mode:overlay}
+#starfield-bg{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none}
+.masthead,.greedy-nav,.page,.sidebar,.page__footer{position:relative;z-index:1}
+.page__content{max-width: 840px}
+.page__content p{line-height:1.9;font-size:1.08rem;margin:0.85rem 0}
+ul,ol{line-height:1.7}
+
+/* Headings accent bars */
+.page__content h1,.page__content h2{position:relative;padding-bottom:.35rem;margin-top:1.6rem}
+.page__content h1:after,.page__content h2:after{content:"";position:absolute;left:0;bottom:0;height:3px;width:72px;background:linear-gradient(90deg,#00e5ff,#6c8cff);box-shadow:0 0 12px rgba(0,229,255,.6)}
+
+/* Code blocks, quotes, tables */
+pre,code{background:#0e1420;border:1px solid rgba(0,229,255,.12)}
+pre{padding:1rem;border-radius:6px;box-shadow:0 0 0 1px rgba(0,229,255,.08) inset,0 8px 24px rgba(0,0,0,.35)}
+blockquote{border-left:3px solid #00e5ff;background:rgba(0,229,255,.05);padding:.75rem 1rem}
+table{border:1px solid rgba(0,229,255,.15)}
+table th,table td{border-color:rgba(0,229,255,.12)}
+
+/* Avatar & images */
+.author__avatar img{border-radius:50%;box-shadow:0 0 0 2px rgba(108,140,255,.6),0 0 24px rgba(0,229,255,.25)}
+img{border-radius:8px}
+</style>
 
 <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
 <script type="text/x-mathjax-config">
@@ -22,5 +56,8 @@
   });
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
+<!-- Standalone starfield script (no build needed) -->
+<script src="assets/js/starfield.js" defer></script>
 
 <!-- end custom head snippets -->
