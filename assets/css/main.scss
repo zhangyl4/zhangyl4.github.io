@@ -102,6 +102,7 @@ input[type="submit"] {
   color: #222;
   cursor: pointer;
 }
+.theme-toggle-item { display: table-cell; vertical-align: middle; }
 .theme-dark .theme-toggle {
   background: rgba(5,9,16,0.7);
   color: #9be8ff;
