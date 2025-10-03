@@ -86,12 +86,18 @@ img{border-radius:8px}
     var theme = saved || (prefersDark ? 'dark' : 'light');
     if(theme === 'dark') document.body.classList.add('theme-dark');
     document.documentElement.setAttribute('data-theme', theme);
+    setTimeout(function(){
+      var link = document.getElementById('theme-toggle-link');
+      if(link){ link.textContent = theme === 'dark' ? '日间模式' : '夜间模式'; }
+    },0);
   })();
   window.toggleTheme = function(){
     var isDark = document.body.classList.toggle('theme-dark');
     var theme = isDark ? 'dark' : 'light';
     localStorage.setItem('theme', theme);
     document.documentElement.setAttribute('data-theme', theme);
+    var link = document.getElementById('theme-toggle-link');
+    if(link){ link.textContent = theme === 'dark' ? '日间模式' : '夜间模式'; }
   }
 </script>
 

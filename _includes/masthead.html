@@ -8,10 +8,10 @@
           {% for link in site.data.navigation.main %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
-          <li class="masthead__menu-item theme-toggle-item"><button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle color theme" title="Toggle theme"><span class="toggle-icon">🌙</span></button></li>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
+      <div class="theme-toggle-inline"><a id="theme-toggle-link" href="#" onclick="toggleTheme();return false;">夜间模式</a></div>
     </div>
   </div>
 </div>
