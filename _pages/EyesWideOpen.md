@@ -14,6 +14,16 @@ author_profile: false
 .ewo-cta { margin-top: 12px; display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
 .ewo-teaser { margin-top: 12px; border-radius: 8px; box-shadow: 0 8px 24px rgba(0,0,0,.08); }
 
+/* Fancy CTA buttons */
+.ewo-btn { display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; border-radius: 9999px; font-weight: 600; text-decoration: none; border: 1px solid transparent; color: #fff; box-shadow: 0 6px 14px rgba(0,0,0,.08); transition: transform .12s ease, box-shadow .12s ease; }
+.ewo-btn svg { width: 18px; height: 18px; }
+.ewo-btn--paper { background: linear-gradient(135deg,#7c3aed,#2563eb); }
+.ewo-btn--paper:hover { transform: translateY(-1px); box-shadow: 0 10px 18px rgba(99,102,241,.28); }
+.ewo-btn--arxiv { background: linear-gradient(135deg,#ef4444,#b91c1c); }
+.ewo-btn--arxiv:hover { transform: translateY(-1px); box-shadow: 0 10px 18px rgba(239,68,68,.28); }
+.ewo-btn--code { background: linear-gradient(135deg,#111827,#374151); }
+.ewo-btn--code:hover { transform: translateY(-1px); box-shadow: 0 10px 18px rgba(31,41,55,.32); }
+
 .ewo-section { text-align: left; margin-top: 24px; }
 .ewo-section h2 { margin-bottom: 8px; }
 
@@ -37,9 +47,18 @@ author_profile: false
   </div>
 
   <p class="ewo-cta">
-    <a class="btn btn--primary" href="" target="_blank" rel="noopener">Paper</a>
-    <a class="btn" href="" target="_blank" rel="noopener">Code</a>
-    <a class="btn" href="#bibtex">Cite</a>
+    <a class="ewo-btn ewo-btn--paper" href="" target="_blank" rel="noopener" aria-label="Paper PDF">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/></svg>
+      <span>Paper</span>
+    </a>
+    <a class="ewo-btn ewo-btn--arxiv" href="" target="_blank" rel="noopener" aria-label="arXiv preprint">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M20 22H6.5A2.5 2.5 0 0 1 4 19.5V5.5A2.5 2.5 0 0 1 6.5 3H20v19z"/></svg>
+      <span>arXiv</span>
+    </a>
+    <a class="ewo-btn ewo-btn--code" href="" target="_blank" rel="noopener" aria-label="Code repository">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 18l6-6-6-6"/><path d="M8 6l-6 6 6 6"/></svg>
+      <span>Code</span>
+    </a>
   </p>
 
   <img class="ewo-teaser" src="/images/EyeWO.png" alt="Eyes Wide Open teaser" style="max-width: 960px; width: 100%;">
@@ -83,10 +102,6 @@ High-level intuition, data engine, and training details will be summarized here.
   </figure>
 </div>
 
-## Resources
-
-- Paper: (coming soon)
-- Code: (coming soon)
 
 ## BibTeX
 
