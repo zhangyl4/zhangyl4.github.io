@@ -7,6 +7,10 @@ author_profile: false
 
 <style>
 /* Eyes Wide Open page-only styles */
+.page__content { text-align: left; }
+.page__content .ewo-hero { text-align: center; }
+.page__content p { line-height: 1.75; }
+.page__content h2 { margin-top: 24px; }
 .ewo-hero { padding: 8px 0 16px; }
 .ewo-title { margin: 0; font-size: 32px; line-height: 1.2; }
 @media (min-width: 768px) { .ewo-title { font-size: 40px; } }
@@ -34,8 +38,15 @@ author_profile: false
 @media (min-width: 800px) { .ewo-grid { grid-template-columns: 1fr 1fr; } }
 
 /* Image placeholders for easy later replacement */
-.ewo-ph { display: flex; align-items: center; justify-content: center; width: 100%; aspect-ratio: 16 / 9; border: 2px dashed #cbd5e1; background: linear-gradient(135deg,#f8fafc,#eef2f7); color: #64748b; border-radius: 8px; padding: 8px; text-align: center; font-size: 14px; }
+.ewo-ph { display: flex; align-items: center; justify-content: center; width: 100%; aspect-ratio: 16 / 9; border: 2px dashed #cbd5e1; background: linear-gradient(135deg,#f8fafc,#eef2f7); color: #64748b; border-radius: 8px; padding: 8px; text-align: center; font-size: 14px; overflow: hidden; }
+.ewo-ph:has(img) { border: 0; background: none; padding: 0; aspect-ratio: auto; }
+.ewo-ph > img { width: 100%; height: auto; display: block; border-radius: 8px; box-shadow: 0 8px 24px rgba(0,0,0,.08); }
 .ewo-small { aspect-ratio: 4 / 3; }
+
+/* Checklist styling */
+.ewo-todo { list-style: none; padding: 0; margin: 8px 0 0 0; display: grid; gap: 8px; }
+.ewo-todo li { display: flex; gap: 10px; align-items: flex-start; background: linear-gradient(180deg,#f8fafc,#f1f5f9); border: 1px solid #e5e7eb; border-radius: 8px; padding: 8px 12px; }
+.ewo-todo li::before { content: "✓"; color: #16a34a; font-weight: 700; line-height: 1.2; margin-top: 2px; }
 </style>
 
 <div class="ewo-hero" align="center">
@@ -69,18 +80,42 @@ author_profile: false
 Envision an AI capable of functioning in human-like settings, moving beyond mere observation to actively understand, anticipate, and proactively respond to unfolding events. Towards this vision, we focus on the innovative task where, <em>given ego‑streaming video input, an assistant proactively answers diverse, evolving questions at the opportune moment, while maintaining synchronized perception and reasoning.</em> This task embodies three key properties: (1) Proactive Coherence, (2) Just‑in‑Time Responsiveness, and (3) Synchronized Efficiency.
 To evaluate and address these properties, we first introduce ESTP‑Bench (Ego Streaming Proactive Benchmark) alongside the ESTP‑F1 metric—a novel framework designed for their rigorous assessment. Secondly, we propose a comprehensive technical pipeline to enable models to tackle this challenging task. This pipeline comprises: (1) a data engine, (2) a multi‑stage training strategy, and (3) a proactive dynamic compression technique. Our proposed model effectively addresses these critical properties while outperforming multiple baselines across diverse online and offline benchmarks.
 
-## Overview
+## The Challenge: From Passive Observer to Proactive Assistant
+Imagine an AI assistant that not just sees your world, but proactively thinks and helps when needed. Current video models are mostly passive observers, struggling with three core challenges in streaming video:
 
-High-level intuition, data engine, and training details will be summarized here.
+1.  Proactive Coherence: How to understand context and answer questions that depend on future events? 
 
-## Framework
+2.  Just-in-Time Responsiveness: How to respond precisely when evidence is sufficient—not too early, not too late? 
+
+3.  Synchronized Efficiency: How to generate answers without missing new visual information, keeping perception and reasoning perfectly aligned?
 
 <figure class="ewo-figure">
   <!-- Replace the placeholder below with an <img> tag when ready -->
   <div class="ewo-ph" aria-label="Framework placeholder">
-    Drop framework figure here. Suggested path: /images/EyesWideOpen_framework.png
+   <img class="ewo-teaser" src="/images/eyewo5.png" alt="Eyes Wide Open teaser" style="max-width: 960px; width: 100%;">
   </div>
-  <figcaption class="ewo-caption">Figure 1. Framework overview. Replace the box above with your image.</figcaption>
+  <figcaption class="ewo-caption">Figure 1. Table.</figcaption>
+  
+</figure>
+
+
+## Framework
+To overcome these challenges, we developed 
+
+VideoLLM-EyeWO, a complete technical pipeline featuring three key innovations:
+
+1. Data Engine: Automatically generates large-scale, diverse, and multi-turn proactive QA data to fuel model training.
+
+2. Multi-Stage Training Strategy: Progressively teaches the model to master response timing ("when to answer") and accuracy ("how to answer"), ultimately achieving coherent, multi-turn dialogue.
+
+3. Proactive Dynamic Compression: Intelligently adjusts the information compression rate based on response likelihood, enabling efficient and synchronized perception and reasoning.
+
+<figure class="ewo-figure">
+  <!-- Replace the placeholder below with an <img> tag when ready -->
+  <div class="ewo-ph" aria-label="Framework placeholder">
+    <img class="ewo-teaser" src="/images/eyewo2.png" alt="Eyes Wide Open teaser" style="max-width: 960px; width: 100%;">
+  </div>
+  <figcaption class="ewo-caption">Figure Framework overview. </figcaption>
   
 </figure>
 
@@ -89,24 +124,37 @@ High-level intuition, data engine, and training details will be summarized here.
 <div class="ewo-grid">
   <figure class="ewo-figure">
     <div class="ewo-ph ewo-small" aria-label="Quantitative results placeholder">
-      Quantitative results (tables/plots). e.g., /images/EyesWideOpen_results_table.png
+      <img class="ewo-teaser" src="/images/eyewo3.png" alt="Eyes Wide Open teaser" style="max-width: 960px; width: 100%;">
     </div>
-    <figcaption class="ewo-caption">Quantitative results on streaming benchmarks.</figcaption>
+    <figcaption class="ewo-caption">ESTP result.</figcaption>
   </figure>
 
   <figure class="ewo-figure">
     <div class="ewo-ph ewo-small" aria-label="Qualitative results placeholder">
-      Qualitative examples. e.g., /images/EyesWideOpen_results_qual.png
+      <img class="ewo-teaser" src="/images/eyewo4.png" alt="Eyes Wide Open teaser" style="max-width: 960px; width: 100%;">
     </div>
-    <figcaption class="ewo-caption">Qualitative examples and visualizations.</figcaption>
+    <figcaption class="ewo-caption">Evalutation of VideoLLM-EyeWO.</figcaption>
   </figure>
 </div>
+
+
+## TODO
+<ul class="ewo-todo">
+  <li>public in arxiv</li>
+  <li>release full paper</li>
+  <li>release code in VideoLLM-EyeWO</li>
+  <li>release ESTP-Bench and ESTP-IT</li>
+  <li>release ESTP-Bench v2</li>
+  <li>public LiveCC-EyeWO result</li>
+  <li>release code in LiveCC-EyeWO</li>
+  
+</ul>
 
 
 ## BibTeX
 
 <span id="bibtex"></span>
-
+<!-- 
 ```bibtex
 @inproceedings{zhang2025eyeswideopen,
   title     = {Eyes Wide Open: Ego Proactive Video-LLM for Streaming Video},
@@ -114,5 +162,5 @@ High-level intuition, data engine, and training details will be summarized here.
   booktitle = {NeurIPS},
   year      = {2025}
 }
-```
+``` -->
 
