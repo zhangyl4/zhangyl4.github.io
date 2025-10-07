@@ -46,7 +46,7 @@ author_profile: false
 /* Checklist styling */
 .ewo-todo { list-style: none; padding: 0; margin: 8px 0 0 0; display: grid; gap: 8px; }
 .ewo-todo li { display: flex; gap: 10px; align-items: flex-start; background: linear-gradient(180deg,#f8fafc,#f1f5f9); border: 1px solid #e5e7eb; border-radius: 8px; padding: 8px 12px; }
-.ewo-todo li::before { content: "✓"; color: #16a34a; font-weight: 700; line-height: 1.2; margin-top: 2px; }
+.ewo-todo li::before { content: "×"; color:rgb(161, 21, 49); font-weight: 700; line-height: 1.2; margin-top: 2px; }
 </style>
 
 <div class="ewo-hero" align="center">
