@@ -79,6 +79,10 @@ Cheng Shi\*, **Yulin Zhang**\*, Bin Yang, Jiajin Tang, Yuexin Ma, Sibei Yang
 
 
 
+# 🎖 Honors and Awards
+- *2025*: National Scholarship (国家奖学金)
+- *2024*: Outstanding Undergraduate Thesis Award, School of Information Science and Technology, ShanghaiTech University (上海科技大学信息学院优秀毕业论文)
+
 # ❤️ Hobbies
 
 <span class='anchor' id='hobbies'></span>

@@ -47,6 +47,8 @@ author_profile: false
 .ewo-todo { list-style: none; padding: 0; margin: 8px 0 0 0; display: grid; gap: 8px; }
 .ewo-todo li { display: flex; gap: 10px; align-items: flex-start; background: linear-gradient(180deg,#f8fafc,#f1f5f9); border: 1px solid #e5e7eb; border-radius: 8px; padding: 8px 12px; }
 .ewo-todo li::before { content: "×"; color:rgb(161, 21, 49); font-weight: 700; line-height: 1.2; margin-top: 2px; }
+.ewo-todo li.completed { background: linear-gradient(180deg,#f0fdf4,#dcfce7); border-color: #86efac; }
+.ewo-todo li.completed::before { content: "✓"; color: #16a34a; }
 </style>
 
 <div class="ewo-hero" align="center">
@@ -58,11 +60,11 @@ author_profile: false
   </div>
 
   <p class="ewo-cta">
-    <a class="ewo-btn ewo-btn--paper" href="" target="_blank" rel="noopener" aria-label="Paper PDF">
+    <a class="ewo-btn ewo-btn--paper" href="/assets/NIPS_EyeWO.pdf" target="_blank" rel="noopener" aria-label="Paper PDF">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/></svg>
       <span>Paper</span>
     </a>
-    <a class="ewo-btn ewo-btn--arxiv" href="" target="_blank" rel="noopener" aria-label="arXiv preprint">
+    <a class="ewo-btn ewo-btn--arxiv" href="https://www.alphaxiv.org/abs/2510.14560" target="_blank" rel="noopener" aria-label="arXiv preprint">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M20 22H6.5A2.5 2.5 0 0 1 4 19.5V5.5A2.5 2.5 0 0 1 6.5 3H20v19z"/></svg>
       <span>arXiv</span>
     </a>
@@ -140,8 +142,8 @@ VideoLLM-EyeWO, a complete technical pipeline featuring three key innovations:
 
 ## TODO
 <ul class="ewo-todo">
-  <li>public in arxiv</li>
-  <li>release full paper</li>
+  <li class="completed">public in arxiv</li>
+  <li class="completed">release full paper</li>
   <li>release code in VideoLLM-EyeWO</li>
   <li>release ESTP-Bench and ESTP-IT</li>
   <li>release ESTP-Bench v2</li>
