@@ -144,8 +144,8 @@ VideoLLM-EyeWO, a complete technical pipeline featuring three key innovations:
 <ul class="ewo-todo">
   <li class="completed">public in arxiv</li>
   <li class="completed">release full paper</li>
-  <li>class="completed">release code in VideoLLM-EyeWO</li>
-  <li>class="completed">release ESTP-Bench and ESTP-IT</li>
+  <li class="completed">release code in VideoLLM-EyeWO</li>
+  <li class="completed">release ESTP-Bench and ESTP-IT</li>
   <li>release ESTP-Bench v2</li>
   <li>public LiveCC-EyeWO result</li>
   <li>release code in LiveCC-EyeWO</li>
