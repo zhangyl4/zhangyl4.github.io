@@ -68,7 +68,7 @@ author_profile: false
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M20 22H6.5A2.5 2.5 0 0 1 4 19.5V5.5A2.5 2.5 0 0 1 6.5 3H20v19z"/></svg>
       <span>arXiv</span>
     </a>
-    <a class="ewo-btn ewo-btn--code" href="" target="_blank" rel="noopener" aria-label="Code repository">
+    <a class="ewo-btn ewo-btn--code" href="https://github.com/zhangyl4/EyeWO" target="_blank" rel="noopener" aria-label="Code repository">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 18l6-6-6-6"/><path d="M8 6l-6 6 6 6"/></svg>
       <span>Code</span>
     </a>
@@ -144,8 +144,8 @@ VideoLLM-EyeWO, a complete technical pipeline featuring three key innovations:
 <ul class="ewo-todo">
   <li class="completed">public in arxiv</li>
   <li class="completed">release full paper</li>
-  <li>release code in VideoLLM-EyeWO</li>
-  <li>release ESTP-Bench and ESTP-IT</li>
+  <li>class="completed">release code in VideoLLM-EyeWO</li>
+  <li>class="completed">release ESTP-Bench and ESTP-IT</li>
   <li>release ESTP-Bench v2</li>
   <li>public LiveCC-EyeWO result</li>
   <li>release code in LiveCC-EyeWO</li>
