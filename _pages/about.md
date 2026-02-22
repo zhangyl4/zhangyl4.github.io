@@ -22,15 +22,34 @@ I am Yulin Zhang (张宇麟), a Master's student (2024-2027) at [ShanghaiTech Un
 
 I am honored to work in [SooLab](https://github.com/SooLab) during my master's studies. My research interests include 1. Spatial Intelligence, 2. Multimodal Large Language Models (LLM/MLLM), 3. Open-world Visual Understanding. Currently, I am focusing on equipping multimodal large language models with spatial reasoning abilities, particularly in 3D scene understanding, embodied navigation, and object grounding. Here is my [CV]().
 
+<span style="color:red; font-weight:bold;">**I am actively seeking PhD positions starting in Fall 2027. If you have opportunities, feel free to reach out!**</span>
+
 <span style="color:red; font-weight:bold;">**I am always happy to communicate with people from different fields and directions. Feel free to contact me!**</span>
 
 # 🔥 News
+- *2026.02*: &nbsp;🎉🎉 Our paper "WeaveTime: Stream from Earlier Frames into Emergent Memory in VideoLLMs" has been accepted to CVPR 2026!
 - *2025.09.19*: &nbsp;🎉🎉 Our paper "Eyes Wide Open: Ego Proactive Video-LLM for Streaming Video" has been accepted to NeurIPS 2025!
 - *2025.07*: &nbsp;🎉🎉 Our paper "No More Sibling Rivalry: Debiasing Human-Object Interaction Detection" has been accepted to ICCV 2025!
 
 # 📝 Publications 
 
 \* denotes **equal contribution**
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class="badge">CVPR2026</div>
+    <!-- 替换为 Fig 1 图片：将图片保存为 images/WeaveTime_Fig1.png -->
+    <img src='images/WeaveTime_Fig1.png' alt="WeaveTime Fig 1" width="100%">
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[WeaveTime: Stream from Earlier Frames into Emergent Memory in VideoLLMs](/publications/weavetime/)
+
+**Yulin Zhang**, Cheng Shi, Sibei Yang
+
+CVPR 2026 · [Project Page](/publications/weavetime/) · Paper / arXiv / Code (TBA)
+  </div>
+</div>
 
 <div class='paper-box'>
   <div class='paper-box-image'>
