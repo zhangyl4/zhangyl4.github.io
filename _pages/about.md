@@ -38,8 +38,8 @@ I am honored to work in [SooLab](https://github.com/SooLab) during my master's s
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class="badge">CVPR2026</div>
-    <!-- 替换为 Fig 1 图片：将图片保存为 images/WeaveTime_Fig1.png -->
-    <img src='images/WeaveTime_Fig1.png' alt="WeaveTime Fig 1" width="100%">
+    <!-- WeaveTime teaser image (stored in images/weavetime.png) -->
+    <img src='images/weavetime.png' alt="WeaveTime Fig 1" width="100%">
   </div>
   <div class='paper-box-text' markdown="1">
 
