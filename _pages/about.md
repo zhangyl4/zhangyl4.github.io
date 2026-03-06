@@ -47,7 +47,7 @@ I am honored to work in [SooLab](https://github.com/SooLab) during my master's s
 
 **Yulin Zhang**, Cheng Shi, Sibei Yang
 
-CVPR 2026 · [Project Page](/publications/weavetime/) · Paper / arXiv / Code (TBA)
+CVPR 2026 · [Project Page](/publications/weavetime/) · [[arXiv]](https://arxiv.org/abs/2602.22142) [[Code]](https://github.com/zhangyl4/weavetime)
   </div>
 </div>
 
