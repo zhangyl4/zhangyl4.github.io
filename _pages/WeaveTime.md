@@ -149,10 +149,10 @@ WeaveTime is designed to be **plug-and-play**: it can be added on top of existin
 ## BibTeX
 
 ```bibtex
-@inproceedings{zhang2026weavetime,
-  title     = {WeaveTime: Stream from Earlier Frames into Emergent Memory in VideoLLMs},
-  author    = {Zhang, Yulin and Shi, Cheng and Yang, Sibei},
-  booktitle = {CVPR},
-  year      = {2026}
+@article{zhang2026weavetime,
+  title={WeaveTime: Stream from Earlier Frames into Emergent Memory in VideoLLMs},
+  author={Zhang, Yulin and Shi, Cheng and Yang, Sibei},
+  journal={arXiv preprint arXiv:2602.22142},
+  year={2026}
 }
 ```

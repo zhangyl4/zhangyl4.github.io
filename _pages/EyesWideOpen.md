@@ -158,11 +158,11 @@ VideoLLM-EyeWO, a complete technical pipeline featuring three key innovations:
 <span id="bibtex"></span>
 <!-- 
 ```bibtex
-@inproceedings{zhang2025eyeswideopen,
-  title     = {Eyes Wide Open: Ego Proactive Video-LLM for Streaming Video},
-  author    = {Zhang, Yulin and Shi, Cheng and Wang, Yang and Yang, Sibei},
-  booktitle = {NeurIPS},
-  year      = {2025}
+@article{zhang2025eyes,
+  title={Eyes wide open: Ego proactive video-llm for streaming video},
+  author={Zhang, Yulin and Shi, Cheng and Wang, Yang and Yang, Sibei},
+  journal={arXiv preprint arXiv:2510.14560},
+  year={2025}
 }
 ``` -->
 
