@@ -61,17 +61,17 @@ author_profile: false
   </div>
 
   <p class="ewo-cta">
-    <a class="ewo-btn ewo-btn--paper ewo-btn--disabled" href="#" aria-disabled="true" tabindex="-1" aria-label="Paper PDF (TBA)">
+    <a class="ewo-btn ewo-btn--paper" href="https://arxiv.org/abs/2602.22142" target="_blank" rel="noopener" aria-label="Paper PDF">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/></svg>
-      <span>Paper (TBA)</span>
+      <span>Paper</span>
     </a>
-    <a class="ewo-btn ewo-btn--arxiv ewo-btn--disabled" href="#" aria-disabled="true" tabindex="-1" aria-label="arXiv preprint (TBA)">
+    <a class="ewo-btn ewo-btn--arxiv" href="https://arxiv.org/abs/2602.22142" target="_blank" rel="noopener" aria-label="arXiv preprint">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M20 22H6.5A2.5 2.5 0 0 1 4 19.5V5.5A2.5 2.5 0 0 1 6.5 3H20v19z"/></svg>
-      <span>arXiv (TBA)</span>
+      <span>arXiv</span>
     </a>
-    <a class="ewo-btn ewo-btn--code ewo-btn--disabled" href="#" aria-disabled="true" tabindex="-1" aria-label="Code repository (TBA)">
+    <a class="ewo-btn ewo-btn--code" href="https://github.com/zhangyl4/weavetime" target="_blank" rel="noopener" aria-label="Code repository">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 18l6-6-6-6"/><path d="M8 6l-6 6 6 6"/></svg>
-      <span>Code (TBA)</span>
+      <span>Code</span>
     </a>
   </p>
 
@@ -142,9 +142,8 @@ WeaveTime is designed to be **plug-and-play**: it can be added on top of existin
 <ul class="ewo-todo">
   <li class="completed">add abstract</li>
   <li class="completed">add method overview</li>
-  <li>add paper PDF link</li>
-  <li>add arXiv link</li>
-  <li>add code link</li>
+  <li class="completed">add arXiv link</li>
+  <li class="completed">add code link</li>
 </ul>
 
 ## BibTeX
